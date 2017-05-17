@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.businesscard.MainActivity"
+    android:background="@android:color/white">
+
+
+
+    <ImageView
+        android:id="@+id/kitkat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+         />
+
+
+    <TextView
+        android:id="@+id/Street"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="327 Church Street West"
+        android:layout_below="@id/kitkat"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="P.O.Box 19798 Pretoria West"
+        android:layout_below="@id/Street"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0117 South Africa"
+        android:layout_below="@id/box"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-mail: hasseno@kitkat.co.za"
+        android:layout_below="@id/code"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Website: ww.kitkat.co.za"
+        android:layout_below="@id/email"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tel: +27 12 327 6100"
+        android:layout_below="@id/web"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/fax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fax: +27 12 327 6103"
+        android:layout_below="@id/tel"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/cell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cell: 082 261 8399"
+        android:layout_below="@id/fax"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:textStyle="bold"/>
+    <ImageView
+        android:id="@+id/silly1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/silly1"
+
+        android:layout_below="@id/cell"/>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
